@@ -93,7 +93,7 @@ def send_email(msg):
     port = 465
     sender_email = 'pratikmd55@gmail.com'
     password = getpass.getpass(f'\nEnter your password {sender_email}\n')
-    received_email = 'pratikmd55@gmail.com'
+    receiver_email = 'pratikmd55@gmail.com'
 
     # Create a secure SSL context
     context = ssl.create_default_context()
@@ -102,7 +102,7 @@ def send_email(msg):
         server.login(sender_email, password)
 
         msg = 'Subject: Your Daily Social Media Feed is here!\n\n' + msg
-        server.sendmail(sender_email, received_email, msg.encode("utf-8"))
+        server.sendmail(sender_email, receiver_email, msg.encode("utf-8"))
 
 
 def main():
