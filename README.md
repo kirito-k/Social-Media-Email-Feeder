@@ -47,4 +47,4 @@ If you want to run the code in IDE, replace line 95 with basic 'input()' functio
 
 ## Screenshots
 
-![](./images/email_feed.png)
+![](./images/email-feed.png)
