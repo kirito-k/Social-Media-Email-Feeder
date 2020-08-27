@@ -91,9 +91,9 @@ def send_email(msg):
     """
 
     port = 465
-    sender_email = 'pratikmd55@gmail.com'
+    sender_email = 'Your_Email'
     password = getpass.getpass(f'\nEnter your password {sender_email}\n')
-    receiver_email = 'pratikmd55@gmail.com'
+    receiver_email = 'Receiver_Email'
 
     # Create a secure SSL context
     context = ssl.create_default_context()
