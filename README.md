@@ -12,7 +12,7 @@ The motivation behind this project was to save me some time going through Reddit
 - Tweepy library
 
 # Implementation Instructions
-- Create an app in Reddit apps website.
+- [Create an app in Reddit apps website](https://github.com/kirito-k/Reddit-API).
 - [Create an app in Twitter apps website](https://github.com/kirito-k/Twitter-API).
 - Clone the repository
 - Create a ‘config.json’ file in root directory with the following structure,
