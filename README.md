@@ -2,8 +2,18 @@
 
 Social Media Feed Email Service is a web script application created in Python. 
 
+## Table of Contents
+1. [Introduction](#introduction)
+1. [Motivation](#motivation)
+1. [Pre-requisite Tools](#pre-requisite-tools)
+1. [Implementation](#implementation)
+1. [Screenshots](#screenshots)
+1. [Technologies Used](#technologies-used)
+
+## Introduction
 In simple terms, it gathers the top 10 feed blogs from Reddit as well as top 10 timeline tweets from Twitter, pre-processes them into a more neat format, and emails them to a receiver (in this case myself).
 
+## Motivation
 The motivation behind this project was to save me some time going through Reddit and Twitter in the morning to see the top feeds. Just like we get newsletters, I get this social media feed letter which makes it an amazing project to make if you are just starting out with Reddit and Twitter APIs.
 
 ## Prerequisite
@@ -11,12 +21,12 @@ The motivation behind this project was to save me some time going through Reddit
 - Praw library
 - Tweepy library
 
-# Implementation Instructions
+## Implementation
 - [Create an app in Reddit apps website](https://github.com/kirito-k/Reddit-API).
 - [Create an app in Twitter apps website](https://github.com/kirito-k/Twitter-API).
 - Clone the repository
 - Create a ‘config.json’ file in root directory with the following structure,
-```
+```config.json
 {
   "reddit": 
     {
@@ -48,3 +58,15 @@ If you want to run the code in IDE, replace line 95 with basic 'input()' functio
 ## Screenshots
 
 ![](./images/email-feed.png)
+
+## Technologies Used
+### Script and API
+- python
+- Tweepy (Twitter API)
+- Praw (Reddit API)
+- AWS Cloud
+
+### AWS
+- Cloudformation
+- Lambda
+- Simple Email Service (SES)
