@@ -16,7 +16,7 @@ In simple terms, it gathers the top 10 feed blogs from Reddit as well as top 10 
 ## Motivation
 The motivation behind this project was to save me some time going through Reddit and Twitter in the morning to see the top feeds. Just like we get newsletters, I get this social media feed letter which makes it an amazing project to make if you are just starting out with Reddit and Twitter APIs.
 
-## Prerequisite
+## Pre-requisite Tools
 - Python version 3.x
 - Praw library
 - Tweepy library
@@ -49,7 +49,7 @@ The motivation behind this project was to save me some time going through Reddit
 
 - We will use python’s inbuilt libraries smtplib and SSL for this. smtplib is an SMTP (Simple Mail Transport Protocol) service used to send any email communications. SSL (Secure Socket Layer) is a protocol used for encrypting an SMTP connection.
 
-    <b>Note:</b> It's not safe to have your password hardcoded in your code. Also, it's not a good practice to just input the password using the method ‘input()’ since it will be visible. Thus we used the ‘getpass()’ function. It hides your input which serves our purpose perfectly.
+<b>Note:</b> It's not safe to have your password hardcoded in your code. Also, it's not a good practice to just input the password using the method ‘input()’ since it will be visible. Thus we used the ‘getpass()’ function. It hides your input which serves our purpose perfectly.
 
 - In the main.py file, edit send_email function. Insert your email address in 'sender_email' variable and email where you want to receive feed in 'receiver_email'.
 - Run the main.py file using Terminal. If you run the code using IDE, it may not accept the password input with getpass().
