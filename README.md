@@ -17,7 +17,7 @@ In simple terms, it gathers the top 10 feed blogs from Reddit as well as top 10 
 The motivation behind this project was to save me some time going through Reddit and Twitter in the morning to see the top feeds. Just like we get newsletters, I get this social media feed letter which makes it an amazing project to make if you are just starting out with Reddit and Twitter APIs.
 
 ## Pre-requisite Tools
-- Python version 3.x
+- Python version 3
 - Praw library
 - Tweepy library
 
